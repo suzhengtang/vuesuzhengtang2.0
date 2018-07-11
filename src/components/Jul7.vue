@@ -10,7 +10,7 @@
         <button @click="btnHref1()">{{btn1}}</button>
         <button @click="btnHref2()">{{btn2}}</button>
         <button @click="btnHref3()">{{btn3}}</button>
-        <button @click="btnHref4()">{{btn4}}</button>
+        <button @click="btnHref4()" class="current">{{btn4}}</button>
         <button @click="btnHref5()">{{btn5}}</button>
       </div>
     </div>
@@ -87,6 +87,9 @@
         color: #fff;
         margin: 0 10px;
         cursor: pointer;
+      }
+      .current{
+        background-color: orangered;
       }
     }
   }
