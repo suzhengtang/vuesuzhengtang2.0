@@ -9,6 +9,9 @@
         <button @click="btnHref4()">{{btn4}}</button>
         <button @click="btnHref5()" class="current">{{btn5}}</button>
       </div>
+      <div class="last">
+        <a :href="link">{{date}}</a>
+      </div>
     </div>
 </template>
 
@@ -29,6 +32,8 @@
             href3: '/Jul5',
             href4: '/Jul7',
             href5: '/Jul10',
+            date: '后一天的学习',
+            link: '#/Jul11',
           }
         },
       methods: {
@@ -77,6 +82,18 @@
       }
       .current{
         background-color: orangered;
+      }
+    }
+    .last{
+      margin-top: 100px;
+      a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #999;
+      }
+      a:hover{
+        color: blue;
+        text-decoration: underline;
       }
     }
   }

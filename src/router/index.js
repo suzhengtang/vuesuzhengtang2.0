@@ -5,6 +5,7 @@ import Jul4 from '../components/Jul4'
 import Jul5 from '../components/Jul5'
 import Jul7 from '../components/Jul7'
 import Jul10 from '../components/Jul10'
+import Jul11 from '../components/Jul11'
 
 
 Vue.use(Router)
@@ -35,6 +36,11 @@ export default new Router({
       path: '/Jul10',
       name: 'Jul10',
       component: Jul10
+    },
+    {
+      path: '/Jul11',
+      name: '/Jul11',
+      component: Jul11
     }
   ]
 })
