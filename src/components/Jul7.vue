@@ -51,6 +51,7 @@
           // const {href} = this.$router.resolve({path: this.href4});
           // window.open(href);
           this.$router.push({path: this.href4});
+          alert("我就是当前页面")
         },
         btnHref5() {
           const {href} = this.$router.resolve({path: this.href5});

@@ -58,6 +58,7 @@
           // const {href} = this.$router.resolve({path: this.href5});
           // window.open(href);
           this.$router.push({path: this.href5});
+          alert("我就是当前页");
         }
       }
     }
