@@ -26,6 +26,7 @@
           console.log(all);
         },
         number() {
+          alert("打开F12查看结果！");
           let arr = [
             {name: '张三', age: '22', sex: '男'},
             {name: '李四', age: '24', sex: '女'},
