@@ -8,6 +8,7 @@ import Jul10 from '../components/Jul10'
 import Jul11 from '../components/Jul11'
 import Jul14 from '../components/Jul14'
 import Jul26 from '../components/Jul26'
+import Aug9 from '../components/Aug9'
 
 
 Vue.use(Router)
@@ -53,6 +54,11 @@ export default new Router({
       path: '/Jul26',
       name: '/Jul26',
       component: Jul26
+    },
+    {
+      path: '/Aug9',
+      name: '/Aug9',
+      component: Aug9
     }
   ]
 })
